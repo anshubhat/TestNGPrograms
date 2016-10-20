@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGSuite]">
+  <test name="TestNGTestCases(failed)">
+    <classes>
+      <class name="com.test.ReverseStringTest">
+        <methods>
+          <include name="method1"/>
+          <include name="method3"/>
+          <include name="clearInt"/>
+          <include name="method2"/>
+          <include name="getInt"/>
+        </methods>
+      </class> <!-- com.test.ReverseStringTest -->
+    </classes>
+  </test> <!-- TestNGTestCases(failed) -->
+</suite> <!-- Failed suite [TestNGSuite] -->
